@@ -2,3 +2,5 @@
 My first hands-on GitHub project following the guide.
 
 I'm learning GitHub! It's pretty cool so far.
+
+*This line was added directly on GitHub.*
