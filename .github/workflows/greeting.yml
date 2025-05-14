@@ -1,0 +1,16 @@
+# Query: 
+# ContextLines: 1
+
+name: Simple Greeting Workflow
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say Hello
+        run: echo "Hello, GitHub Actions! A push triggered this."
